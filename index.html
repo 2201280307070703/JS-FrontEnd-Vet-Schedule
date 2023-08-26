@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vet Schedule</title>
+</head>
+<body>
+    <article class="main-container">
+        <div class="container form">
+            <h1 class="header">Add New Appointment</h1>
+
+            <form class="newAppointment">
+                <input type="text" placeholder="Enter name here..." id="name">
+
+                <input type="text" placeholder="Enter type of your animal" id="animal">
+
+                <input type="datetime-local" id="datetime"> 
+
+                    <button class="button add" type="button">Add</button>
+            </form>
+        </div>
+        <div class="subContainers">
+            <div class="sub first">
+                <h2 class="subHeader">Upcoming Vet Appointments</h2>
+                <ul class="list upcoming">
+                    <!-- <li class="item">
+                        <h3 class="name">Ivan</h3>
+                        <h4 class="animal">Cat</h4>
+                        <p class="datetime">05.03.2023г.20:20</p>
+                        <div class="buttons">
+                            <button class="button edit" type="button">Edit</button>
+                            <button class="button done" type="button">Done</button>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+            <div class="sub second">
+                <h2 class="subHeader">Done Vet Appointments</h2>
+                <ul class="list done">
+                    <!-- <li class="item">
+                        <h3 class="name">Ivan</h3>
+                        <h4 class="animal">Cat</h4>
+                        <p class="datetime">05.03.2023г.20:20</p>
+                            <button class="button delete" type="button">Delete</button>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </article>
+    <script src="app.js"></script>
+</body>
+</html>
