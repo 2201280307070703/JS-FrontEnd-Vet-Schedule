@@ -1,0 +1,1 @@
+Simple web page for tracking vet appointments. You can add new appointment, edit appointment, when it is in upcoming section and move it into done section, when it is done. In done section you can delete this appointment.
